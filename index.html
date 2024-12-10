@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест тапсырмасы</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container" id="quiz-container">
+        <b>
+            <h3>Міне, Мағжан Жұмабаевтың "Қарағым" және 
+        Сұлтанмахмұт Торайғыровтың "Шәкірт ойы" өлеңдері бойынша оқу сауаттылығына арналған бес тест тапсырмасы:
+            </h3>
+        </b>
+        <br>
+        <hr>
+        <br>
+        <div class="question" id="question">Сұрақ жүктелуде...</div>
+        <div id="options-container"></div>
+        <div class="answer-section" id="answer-section">
+            <div class="correct-checkmark" id="checkmark">✔</div>
+            <img id="answer-image" class="answer-image" src="" alt="Answer illustration">
+        </div>
+        <div class="nav-buttons">
+            <button onclick="loadPreviousQuestion()">Алдыңғы сұрақ</button>
+            <button onclick="loadNextQuestion()">Келесі сұрақ</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
